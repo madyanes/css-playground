@@ -4,7 +4,7 @@
 }
 
 /* Let's play grid from here: */
-.container {
+.container-1 {
   display: grid;
   grid-gap: 5px;
   grid-template-areas: 

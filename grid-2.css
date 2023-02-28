@@ -1,0 +1,9 @@
+.container-2 {
+  display: grid;
+  height: 100vh;
+  grid-gap: 10px;
+  grid-template-columns: 100px 200px auto auto;
+}
+.item {
+  background: lightcoral;
+}
