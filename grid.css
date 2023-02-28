@@ -1,4 +1,4 @@
-.container > * {
+.container-1 > * {
   background: aquamarine;
   font-size: 30px;
 }
@@ -33,7 +33,7 @@ footer {
 }
 
 @media (min-width: 670px) {
-  .container {
+  .container-1 {
     grid-template-areas: 
     'header header header'
     'aside-1 section aside-2'
