@@ -1,10 +1,10 @@
-.container-1 > * {
+.container > * {
   background: aquamarine;
   font-size: 30px;
 }
 
 /* Let's play grid from here: */
-.container-1 {
+.container {
   display: grid;
   grid-gap: 5px;
   grid-template-areas: 
@@ -33,7 +33,7 @@ footer {
 }
 
 @media (min-width: 670px) {
-  .container-1 {
+  .container {
     grid-template-areas: 
     'header header header'
     'aside-1 section aside-2'
