@@ -31,3 +31,12 @@ section {
 footer {
   grid-area: footer;
 }
+
+@media (min-width: 670px) {
+  .container {
+    grid-template-areas: 
+    'header header header'
+    'aside-1 section aside-2'
+    'footer footer footer'
+  }
+}
