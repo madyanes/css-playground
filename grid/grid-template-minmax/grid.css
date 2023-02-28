@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: minmax(200px, 500px) minmax(100px, auto);
+}
+.one {
+  background: cyan;
+}
+.two {
+  background: pink;
+}
